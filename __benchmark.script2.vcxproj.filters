@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="benchmark.script2">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="benchmark.script2\seams">
+      <UniqueIdentifier>{959948ee-a36d-40fe-b374-b0b32ea0e2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benchmark.script2\align">
+      <UniqueIdentifier>{c4215afc-b4f3-4417-af8d-111bd2ee7cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benchmark.script2\ftos">
+      <UniqueIdentifier>{1d755b14-24f4-4b90-8001-086818db4f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benchmark.script2\itos">
+      <UniqueIdentifier>{aa76a638-df27-41df-b9ed-512487582a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benchmark.script2\msb_asserted">
+      <UniqueIdentifier>{84134801-9f19-4fbc-a6f9-0bc658b12700}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="itos\print_itos_script1.cpp">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClCompile>
+    <ClCompile Include="itos\print_mlsd.cpp">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClCompile>
+    <ClCompile Include="itos\print_mlsd2.cpp">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClCompile>
+    <ClCompile Include="itos\print_mod100sc.cpp">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClCompile>
+    <ClCompile Include="itos\itos.cpp">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClCompile>
+    <ClCompile Include="itos\itos_algorithms.cpp">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClCompile>
+    <ClCompile Include="ftos\ftos.cpp">
+      <Filter>benchmark.script2\ftos</Filter>
+    </ClCompile>
+    <ClCompile Include="align\align.cpp">
+      <Filter>benchmark.script2\align</Filter>
+    </ClCompile>
+    <ClCompile Include="msb_asserted\msb_asserted.cpp">
+      <Filter>benchmark.script2\msb_asserted</Filter>
+    </ClCompile>
+    <ClCompile Include="_main.cpp">
+      <Filter>benchmark.script2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="itos\itos_algorithms.h">
+      <Filter>benchmark.script2\itos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md">
+      <Filter>benchmark.script2</Filter>
+    </None>
+  </ItemGroup>
+</Project>
